@@ -1,0 +1,95 @@
+.main{
+  /* background-color: white; */
+  background-color: rgba(250, 251, 252, 0.8);
+}
+.main1{
+  background-color: white;
+  width: 80vw;
+}
+.right{
+
+  padding: 20px;
+}
+.time{
+  position: absolute;
+  right: 15%;
+}
+.left{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding:40px 0;
+}
+
+.cricle{
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  border-radius: 75px;
+  padding: 70px;
+}
+
+.work1{
+  display: flex;
+  justify-content: space-between;
+}
+.hello{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.app{
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url('https://static.vecteezy.com/system/resources/previews/005/153/715/original/world-blood-donor-day-blood-donation-concept-background-blood-bag-illustration-free-vector.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.yes{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.ma{
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.end{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen{
+height: 100vh;
+
+}
+.maS{
+  height:100vh;
+  width: 100%;
+  background-image:url('https://ds8526jcpbygs.cloudfront.net/wp-content/uploads/2023/10/blood-donor-hands-with-red-heart-and-drop-medical-donation-and-blood-transfusion.jpg_s1024x1024wisk20caK1n3wsXt4B2cy8Qw4cSafkSDJ0F1BYoyQlXBpjm7YA.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+   justify-content:center;
+   align-items:center;
+   text-align: center;
+
+
+}
+.works{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+display: flex;
+justify-content: center;
+align-items: center;
+}
