@@ -104,13 +104,13 @@ const fetchData = () => {
       .then((res: any) => {
         let filteredData = [];
         if (details.bloodG === "O") {
-          filteredData = res.map((x: any) => x);
+          filteredData = res.filter((x: any) => x.bloodG === "O");
         } else if (details.bloodG === "A") {
-          filteredData = res.filter((x: any) => x.bloodG === "A" || x.bloodG === "AB");
+          filteredData = res.filter((x: any) => x.bloodG === "A" || x.bloodG === "O");
         } else if (details.bloodG === "B") {
-          filteredData = res.filter((x: any) => x.bloodG === "B" || x.bloodG === "AB");
+          filteredData = res.filter((x: any) => x.bloodG === "B" || x.bloodG === "O");
         } else if (details.bloodG === "AB") {
-          filteredData = res.filter((x: any) => x.bloodG === "AB");
+          filteredData = res.map((x: any) => x);
         }
         setUserData(filteredData);
       })
